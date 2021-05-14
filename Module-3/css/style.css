@@ -1,0 +1,60 @@
+body {
+    font-size: 16px;
+    color:black;
+    background-color: rgb(241, 226, 203);
+}
+/* Header */
+#header-nav {
+    background-color:rgb(138, 47, 47);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-brand h1{
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(44, 41, 41);
+    font-weight: bold;
+}
+button.navbar-toggler{
+    border: 1px solid rgb(17, 16, 16);
+
+}
+.nav-item a{
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid rgb(102, 102, 102);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-item a:hover{
+    background: rgba(173, 72, 14, 0.829);
+}
+h2{
+    text-shadow: 1px 1px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#milk, #panner, #egg{
+    border: 3px solid black;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 500;
+    overflow: hidden;
+    height: auto;
+}
+h3{
+    color: black;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+p{
+    padding: 5px;
+}
